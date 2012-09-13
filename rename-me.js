@@ -19,8 +19,9 @@ var hoursoftravel = function(totalmiles, averagemph) {
 	
 };
 
-// Boolean Function 
-	if (booVariable === true) {
+// Boolean Function
+ 
+	if (booVarible === true)
 		console.log("The band will be able to afford hotels, gas, and pay each band member as well as the crew.");
 	}	else {
 		console.log("The band will not be successful on tour and not make a profit.");
