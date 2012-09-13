@@ -7,7 +7,6 @@ Project 3
 // Declare Varibles
 var bandneed = "budget";
 var transport = "van";
-
 var booVariable = true
 
 
@@ -21,9 +20,9 @@ var hoursoftravel = function(totalmiles, averagemph) {
 
 // Boolean Function
  
-	if (booVarible === true)
+	if (booVariable === true)
 		console.log("The band will be able to afford hotels, gas, and pay each band member as well as the crew.");
-	}	else {
+		else {
 		console.log("The band will not be successful on tour and not make a profit.");
 	};
 	
@@ -61,6 +60,29 @@ var countUp = function(){
     };
     return venues;
 };	
+
+// Object Function
+
+var bandAccessories = { 
+	name: "The Reckless" 
+	style: 
+	equipment [
+		"", 
+		"", 
+		"", 
+		""
+	] 
+	rockandRoll: function () {
+		console.log("Rock and Roll!")
+	}
+};
+var key = "equipment";
+
+console.log( bandAccessories[key] );
+
+//call funtion
+bandAccessories.rockandRoll();
+bandAccessories["Rock and Roll!"]();
 
 
 
