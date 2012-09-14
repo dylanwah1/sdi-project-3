@@ -61,6 +61,11 @@ var countUp = function(){
     return venues;
 };	
 
+Array.newTour = function(){
+	var newArray = ["24 shows", "3000 miles"];
+	this.push.apply(this, newArray);
+};
+
 // Object Function
 
 var bandAccessories = { 
@@ -90,4 +95,5 @@ hoursoftravel(3000,60)
 var numOfVenues = countUp(10);
 console.log("Number of venues played: " + numOfVenues);
 bandAccessories.rockRoll();
+
 
