@@ -64,13 +64,13 @@ var countUp = function(){
 // Object Function
 
 var bandAccessories = { 
-	name: "The Reckless" 
-	style: 
+	name: "The Reckless", 
+	style: "Pop-rock", 
 	equipment [
-		"", 
-		"", 
-		"", 
-		""
+		"Marshall JCM-900", 
+		"Pork Pie Custom Drums", 
+		"Fender Jaguar Modern Player guitar", 
+		"Orange 4x12 Cab"
 	] 
 	rockandRoll: function () {
 		console.log("Rock and Roll!")
@@ -80,10 +80,6 @@ var key = "equipment";
 
 console.log( bandAccessories[key] );
 
-//call funtion
-bandAccessories.rockandRoll();
-bandAccessories["Rock and Roll!"]();
-
 
 
 
@@ -91,3 +87,5 @@ bandAccessories["Rock and Roll!"]();
 hoursoftravel(3000,60)
 var numOfVenues = countUp(10);
 console.log("Number of venues played: " + numOfVenues);
+bandAccessories.rockandRoll();
+bandAccessories["Rock and Roll!"]();
