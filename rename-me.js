@@ -8,7 +8,7 @@ Project 3
 var bandneed = "budget";
 var transport = "van";
 var booVariable = true
-
+var Style = "poprock"
 
 // Procedure
 var hoursoftravel = function(totalmiles, averagemph) {
@@ -20,7 +20,7 @@ var hoursoftravel = function(totalmiles, averagemph) {
 
 // Boolean Function
  
-	if (booVariable === true)
+	if (bandneed !== "budget")
 		console.log("The band will be able to afford hotels, gas, and pay each band member as well as the crew.");
 		else {
 		console.log("The band will not be successful on tour and not make a profit.");
@@ -67,10 +67,10 @@ Array.newTour = function(){
 };
 
 // Object Function
+var getStyle = function () { return Style; };
 
-var bandAccessories = { 
-	name: "The Reckless", 
-	style: "Pop-rock", 
+	var bandAccessories = { 
+	name: "The Reckless",  
 	equipment: [
 		"Marshall JCM-900", 
 		"Pork Pie Custom Drums", 
@@ -91,9 +91,11 @@ console.log( bandAccessories["equipment"] );
 
 
 // Main Code - function calls
+var poprock = style("poprock");
 hoursoftravel(3000,60)
 var numOfVenues = countUp(10);
 console.log("Number of venues played: " + numOfVenues);
 bandAccessories.rockRoll();
+
 
 
