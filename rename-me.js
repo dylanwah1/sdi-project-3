@@ -66,19 +66,21 @@ var countUp = function(){
 var bandAccessories = { 
 	name: "The Reckless", 
 	style: "Pop-rock", 
-	equipment [
+	equipment: [
 		"Marshall JCM-900", 
 		"Pork Pie Custom Drums", 
 		"Fender Jaguar Modern Player guitar", 
 		"Orange 4x12 Cab"
-	] 
-	rockandRoll: function () {
+	],
+	rockRoll: function () {
 		console.log("Rock and Roll!")
 	}
 };
-var key = "equipment";
+console.log( bandAccessories["equipment"] );
+	
+	
 
-console.log( bandAccessories[key] );
+
 
 
 
@@ -87,5 +89,5 @@ console.log( bandAccessories[key] );
 hoursoftravel(3000,60)
 var numOfVenues = countUp(10);
 console.log("Number of venues played: " + numOfVenues);
-bandAccessories.rockandRoll();
-bandAccessories["Rock and Roll!"]();
+bandAccessories.rockRoll();
+
